@@ -1,0 +1,88 @@
+[
+  {
+    "nodes" : [
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{35, 36}, {150, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 18,
+          "frame" : "{{165, 144}, {150, 32}}",
+          "uuid" : "AFFA017E-83C7-4E6F-8E0D-45933D4CE35B",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "Radius",
+          "name" : "radius_label",
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{193, 36}, {146, 32}}",
+        "class" : "TextField",
+        "attributes" : {
+          "font_size" : 17,
+          "frame" : "{{140, 144}, {200, 32}}",
+          "spellchecking_type" : "default",
+          "class" : "TextField",
+          "uuid" : "85F0A2A4-43BF-4785-8F2F-DF5CB78A98DB",
+          "alignment" : "left",
+          "autocorrection_type" : "default",
+          "name" : "radius_textfield",
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{107, 88}, {232, 32}}",
+        "class" : "Button",
+        "attributes" : {
+          "action" : "calculate_on_touch_up_inside",
+          "frame" : "{{200, 144}, {80, 32}}",
+          "title" : "C= pi*r**2",
+          "uuid" : "B6A94ADF-41A7-4DD7-9EC6-3012222E9F50",
+          "class" : "Button",
+          "name" : "cal_button",
+          "font_size" : 15
+        },
+        "selected" : true
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{35, 128}, {304, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 18,
+          "frame" : "{{165, 144}, {150, 32}}",
+          "uuid" : "426C3071-E3FF-4229-9381-971075421BB8",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "Circumference :",
+          "name" : "circumference_label",
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      }
+    ],
+    "frame" : "{{0, 0}, {480, 320}}",
+    "class" : "View",
+    "attributes" : {
+      "enabled" : true,
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    },
+    "selected" : false
+  }
+]
